@@ -33,7 +33,7 @@ simply run `vagrant up`.
 ### Tast
 - print first 3 lines from the test.txt - head -3 text.txt
 - print last 10 lines from the test.txt - tail -10 text.txt
-- print last  lines from the test.txt - 
+- print last  lines from the test.txt - tail -1 text.txt
 
 - Research how to use `| pipe` , `grep` and `sort` - 
 - pipe - sends the output of one command to another

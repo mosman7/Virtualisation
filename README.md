@@ -1,4 +1,4 @@
-readme
+### VM created and running
 
 Current machine states:
 
@@ -10,7 +10,7 @@ suspend the virtual machine. In either case, to restart it again,
 simply run `vagrant up`.
 
 # Virtualisation
-### Vagrant
+### Vagrant notes
 
 - vagrant ssh to get into vm
 - read a folder - cat filename
@@ -30,6 +30,7 @@ simply run `vagrant up`.
 - close something from task manager - `kill PID` e.g. `kill 7`
 - how to delete a folder/hidden folder - `la -a`
 
+### Tast
 - print first 3 lines from the test.txt - head -3 text.txt
 - print last 10 lines from the test.txt - tail -10 text.txt
 - print last  lines from the test.txt - 

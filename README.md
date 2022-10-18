@@ -48,3 +48,16 @@ simply run `vagrant up`.
 - ctrl c to exit
 - `sudo systemctl stop nginx` stops 
 - `sudo systemctl start nginx` starts process
+
+- `vagrant destroy` then `vagrant status`
+
+Steps
+- vagrant up
+- vagrant status
+- exit
+- vagrant reload  - runs vm from localhost
+- vagrant ssh
+- sudo apt-get install nginx -y
+- sudo systemctl status nginx
+- sudo systemctl stop nginx
+- sudo systemctl start nginx

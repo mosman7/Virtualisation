@@ -42,3 +42,9 @@ simply run `vagrant up`.
 - ps-aux sort list by name - ps aux --sort user
 -
 
+- install `nginx` in our vm - `sudo apt-get install nginx -y`
+- create a `private-network` between localhost&vm
+- how to check a tool/software in linux `sudo systemctl status nginx`
+- ctrl c to exit
+- `sudo systemctl stop nginx` stops 
+- `sudo systemctl start nginx` starts process

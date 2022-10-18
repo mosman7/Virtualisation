@@ -40,7 +40,7 @@ simply run `vagrant up`.
 - grep -  It lets you find a word by searching through all the texts in a specific file.
 - sort -  sorts the contents of a text file, line by line
 - ps-aux sort list by name - ps aux --sort user
--
+
 
 - install `nginx` in our vm - `sudo apt-get install nginx -y`
 - create a `private-network` between localhost&vm

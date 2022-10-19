@@ -1,4 +1,4 @@
-## Set up Reverse proxy
+## How to set up a reverse proxy
 - Reverse proxy - a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server.
 open your vm and run `sudo nano /etc/nginx/sites-available/default`
 - in the location section, delete the given location and paste ` location / {`

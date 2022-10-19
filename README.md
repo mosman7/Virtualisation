@@ -26,6 +26,7 @@ simply run `vagrant up`.
 - copy file from 1 location to another
 - for admin access `sudo` switych to admin user `sudo su`
 - change permission `chmod instruction filename`e.g chmod 700 text.txt
+- check permissions `ll`
 - task manager `top` or `ps aux`
 - close something from task manager - `kill PID` e.g. `kill 7`
 - how to delete a folder/hidden folder - `la -a`
@@ -47,6 +48,7 @@ simply run `vagrant up`.
 - how to check a tool/software in linux `sudo systemctl status nginx`
 - ctrl c to exit
 - `sudo systemctl stop nginx` stops 
+- `sudo systemctl restart nginx` - restarts nginx
 - `sudo systemctl start nginx` starts process
 
 - `vagrant destroy` then `vagrant status`
@@ -86,3 +88,30 @@ simply run `vagrant up`.
 - Increase efficiency and productivity
 - More security
 - Flexible
+
+Automate the process of installing/provisioning nginx 
+bash scripting
+file.sh
+#!/bin/bash - must be first line
+create a script
+change permissions to make it executable - chmod -x 
+
+
+### sync folders between OS & VM
+    config.vm.synced_folder ".", "/home/vagrant/app"
+#                           host path       destination
+
+add this line to vagrantfile
+exit from vm
+vagrant reload from localhost - upload changes
+vagrant up - load back up
+ls
+folder should now be available
+
+#
+- App is on localhost
+- before deploying we need to test the environment against the product
+- node.js app
+- 
+install apps inside app folder cd app cd app
+

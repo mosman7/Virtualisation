@@ -51,7 +51,7 @@ simply run `vagrant up`.
 
 - `vagrant destroy` then `vagrant status`
 
-### Steps to creating a virtual machine
+### Steps to creating a virtual machine (nginx)
 - vagrant up - starts vm
 - vagrant status - checks whether vm is running or not
 - exit - leaves vm environment
@@ -67,6 +67,9 @@ simply run `vagrant up`.
 #### What is virtualisation & benefits of it?
 - Virtualization relies on software to simulate hardware functionality and create a virtual computer system. This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. The resulting benefits include economies of scale and greater efficiency.
 
+[]! "C:\Users\moham\Downloads\MicrosoftTeams-image (1).png"
+
+
 #### What is dev env?
 - A workspace for developers to make changes without breaking anything in a live environment
 
@@ -77,3 +80,10 @@ simply run `vagrant up`.
 #### What is a virtual box?
 - Open-source software for virtualizing the x86 computing architecture.
 - Acts as a hypervisor, creates a VM (virtual machine) where the user can run another OS (operating system).
+
+#### Benefits of Virtualisation
+- Reduces your IT expenses
+- Reduce downtime and enhance resiliency in disaster recovery situations
+- Increase efficiency and productivity
+- More security
+- Flexible

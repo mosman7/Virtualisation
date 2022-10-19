@@ -19,6 +19,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder ".", "/home/vagrant/app"
 #                           host path       destination
 
+    #automated script to run vm using specified .sh file
     config.vm.provision "shell", path: "provision.sh"
 
 end

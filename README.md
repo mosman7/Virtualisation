@@ -68,6 +68,8 @@ simply run `vagrant up`.
 - Virtualization relies on software to simulate hardware functionality and create a virtual computer system. This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. The resulting benefits include economies of scale and greater efficiency.
 
 []! "C:\Users\moham\Downloads\MicrosoftTeams-image (1).png"
+![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/115226294/196642874-06565641-1d78-49bc-a424-b2b7dd3d6c4b.png)
+
 
 
 #### What is dev env?

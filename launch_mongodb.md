@@ -1,10 +1,10 @@
-### Set up 2 VM's
+## Set up 2 VM's
 - input command for vm in vagrantfile
 - update to `ubuntu/bionic64`
 - make sure location for provision.sh is correct folder. app/environment
 - boot up vms `vagrant up app` `vagrant up db`
 
-#### In db vm
+## In db vm
 - update/ upgrade `sudo apt-get update -y` `sudo apt-get upgrade -y` 
 - to install mongodb run the following commands
 - `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
@@ -25,7 +25,7 @@ Now change the mongod.conf file
 - restart mongodb `sudo systemctl restart mongodb`
 - enable mongodb `sudo systemctl enable mongodb`
 
-#### open app machine
+## Open app vm
 - in app folder `cd app, cd app`
 - create env var called cb_host
 - `export DB_HOST=mongodb://192.168.10.150:27017/posts`
@@ -41,6 +41,3 @@ Now change the mongod.conf file
 - when exiting if you get the error `There are stopped jobs.` type in `jobs` which will stop it
 
 
-
-#### In app vm
-- 

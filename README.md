@@ -22,7 +22,7 @@ simply run `vagrant up`.
 - check files available in current location - `ls`
 - navigate to folder `cd folder name`
 - how to navigate out of folder `cd ..` or `cd`
-- how to delets a folder `rm -rf filename`
+- how to delete a folder `rm -rf filename`
 - copy file from 1 location to another
 - for admin access `sudo` switych to admin user `sudo su`
 - change permission `chmod instruction filename`e.g chmod 700 text.txt
@@ -52,6 +52,14 @@ simply run `vagrant up`.
 - `sudo systemctl start nginx` starts process
 
 - `vagrant destroy` then `vagrant status`
+- how to run node app in background `nohup node app.js > /dev/null 2?&1 &`
+- remove the default file `sudo rm /etc/nginx/sites-available/default`
+- replace with your own file `sudo cp existing location /etc/nginx/sites-available/default` - #cp copies file
+- restart and enable nginx
+- `sudo systemctl restart nginx`
+- `sudo systemctl enable nginx`
+- access nginx logs `cd /var/log/nginx`
+
 
 ### Steps to creating a virtual machine (nginx)
 - vagrant up - starts vm

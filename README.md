@@ -20,23 +20,21 @@
 - close something from task manager - `kill PID` e.g. `kill 7`
 - how to delete a folder/hidden folder - `la -a`
 
-#### What is virtualisation & benefits of it?
+### What is virtualisation & benefits of it?
 - Virtualization relies on software to simulate hardware functionality and create a virtual computer system. This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. The resulting benefits include economies of scale and greater efficiency.
 
-[]! "C:\Users\moham\Downloads\MicrosoftTeams-image (1).png"
-
-#### What is dev env?
+### What is dev env?
 - A workspace for developers to make changes without breaking anything in a live environment
 
-#### What is vagrant?
+### What is vagrant?
 - Tool for building and managing virtual machine environments in a single workflow. 
 - Vagrant lowers development environment setup time
 
-#### What is a virtual box?
+### What is a virtual box?
 - Open-source software for virtualizing the x86 computing architecture.
 - Acts as a hypervisor, creates a VM (virtual machine) where the user can run another OS (operating system).
 
-#### Benefits of Virtualisation
+### Benefits of Virtualisation
 - Reduces your IT expenses
 - Reduce downtime and enhance resiliency in disaster recovery situations
 - Increase efficiency and productivity
@@ -63,9 +61,3 @@ ls
 folder should now be available
 
 #
-- App is on localhost
-- before deploying we need to test the environment against the product
-- node.js app
-- 
-install apps inside app folder cd app cd app
-

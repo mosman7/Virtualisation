@@ -1,14 +1,3 @@
-### VM created and running
-
-Current machine states:
-
-default                   running (virtualbox)
-
-The VM is running. To stop this VM, you can run `vagrant halt` to
-shut it down forcefully, or you can run `vagrant suspend` to simply
-suspend the virtual machine. In either case, to restart it again,
-simply run `vagrant up`.
-
 # Virtualisation
 ### Vagrant notes
 
@@ -31,49 +20,6 @@ simply run `vagrant up`.
 - close something from task manager - `kill PID` e.g. `kill 7`
 - how to delete a folder/hidden folder - `la -a`
 
-### Tast
-- print first 3 lines from the test.txt - head -3 text.txt
-- print last 10 lines from the test.txt - tail -10 text.txt
-- print last  lines from the test.txt - tail -1 text.txt
-
-- Research how to use `| pipe` , `grep` and `sort` - 
-- pipe - sends the output of one command to another
-- grep -  It lets you find a word by searching through all the texts in a specific file.
-- sort -  sorts the contents of a text file, line by line
-- ps-aux sort list by name - ps aux --sort user
-
-
-- install `nginx` in our vm - `sudo apt-get install nginx -y`
-- create a `private-network` between localhost&vm
-- how to check a tool/software in linux `sudo systemctl status nginx`
-- ctrl c to exit
-- `sudo systemctl stop nginx` stops 
-- `sudo systemctl restart nginx` - restarts nginx
-- `sudo systemctl start nginx` starts process
-
-- `vagrant destroy` then `vagrant status`
-- how to run node app in background `nohup node app.js > /dev/null 2?&1 &`
-- remove the default file `sudo rm /etc/nginx/sites-available/default`
-- replace with your own file `sudo cp existing location /etc/nginx/sites-available/default` - #cp copies file
-- restart and enable nginx
-- `sudo systemctl restart nginx`
-- `sudo systemctl enable nginx`
-- access nginx logs `cd /var/log/nginx`
-
-
-### Steps to creating a virtual machine (nginx)
-- vagrant up - starts vm
-- vagrant status - checks whether vm is running or not
-- exit - leaves vm environment
-- vagrant reload  - runs vm from localhost
-- vagrant ssh - 
-- sudo apt-get install nginx -y
-- sudo systemctl status nginx
-- ctrl c
-- sudo systemctl stop nginx
-- sudo systemctl start nginx
-
-## Task
 #### What is virtualisation & benefits of it?
 - Virtualization relies on software to simulate hardware functionality and create a virtual computer system. This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. The resulting benefits include economies of scale and greater efficiency.
 
